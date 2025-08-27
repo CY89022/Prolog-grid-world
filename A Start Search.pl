@@ -1,5 +1,4 @@
-/* Chen Yu & 220006342 */
-/* yu996@my.yorku.ca */
+/* Chen Yu  */
 /* ========= test cmd in q3 report========= */
 add_edge(X1,Y1,X2,Y2,Cost) :-
     assertz(e(X1,Y1,X2,Y2,Cost)),
@@ -547,4 +546,5 @@ txg(X,Y,T) :- txv(X,Y,T,Res), gva(Res). %default color, fill, and size
 %gvw(buf1,''),txg(100,200,'Text',buf1),gvr(buf1,X),gvf(buf1).
 %gvi,txg(100,200,text,red,black,100),gvr(X),gvf.
 %gvi,txg(100,200,text),gvr(X),gvf.
+
 /*PSVGL END=========================================================================*/
