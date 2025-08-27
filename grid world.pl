@@ -1,5 +1,4 @@
-/* Chen Yu & 220006342 */
-/* yu996@my.yorku.ca */
+/* Chen */
 /* ========= test cmd========= */
 /* ?- [q1].  */
 /* ?- main_tri_grid(15, 14).  */
@@ -306,4 +305,5 @@ txg(X,Y,T) :- txv(X,Y,T,Res), gva(Res). %default color, fill, and size
 %gvi,txg(100,200,text,red,black,100),gvr(X),gvf.
 %gvi,txg(100,200,text),gvr(X),gvf.
 /*PSVGL END=========================================================================*/
+
 
